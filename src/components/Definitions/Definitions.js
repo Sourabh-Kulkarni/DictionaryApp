@@ -1,6 +1,6 @@
 import React from 'react';
 import './Definitions.css';
-debugger;
+
 const Definitions = ({word,category, meanings, LightTheme}) => {
   return (
     <div className='meanings'>
