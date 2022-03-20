@@ -4,7 +4,7 @@ import { createTheme } from '@mui/material/styles';
 import React from 'react';
 import './Header.css';
 import categories from '../../data/category';
-// debugger;
+
 const Header = ({category,setCategory,word,setWord, LightTheme}) => {
   const darkTheme = createTheme({
       palette: {

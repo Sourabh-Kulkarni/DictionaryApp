@@ -7,7 +7,6 @@ import Header from './components/Header/Header';
 import Definitions from './components/Definitions/Definitions';
 import {grey} from '@mui/material/colors';
 
-debugger;
 function App() {
   const [word, setWord] = useState('');
   const [meanings, setMeanings] = useState([]);
